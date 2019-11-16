@@ -12,29 +12,29 @@ polka() // You can also use Express
 		if (err) console.log("error", err);
 	});
 
-import sveltePreprocess from "svelte-preprocess";
+// import sveltePreprocess from "svelte-preprocess";
 
-const preprocess = sveltePreprocess({
-	compilerOptions: {
-		module: "es2015"
-	}
-});
+// const preprocess = sveltePreprocess({
+// 	compilerOptions: {
+// 		module: "es2015"
+// 	}
+// });
 
-export default {
-	client: {
-		plugins: [
-			svelte({
-				preprocess
-				// ...
-			})
-		]
-	},
-	server: {
-		plugins: [
-			svelte({
-				preprocess
-				// ...
-			})
-		]
-	}
-};
+// export default {
+// 	client: {
+// 		plugins: [
+// 			svelte({
+// 				preprocess
+// 				// ...
+// 			})
+// 		]
+// 	},
+// 	server: {
+// 		plugins: [
+// 			svelte({
+// 				preprocess
+// 				// ...
+// 			})
+// 		]
+// 	}
+// };
