@@ -26,7 +26,7 @@ module.exports = {
 							dev,
 							hydratable: true,
 							hotReload: false, // pending https://github.com/sveltejs/svelte/issues/2377,
-							preprocess: require("svelte-preprocess")({
+							preprocess: sveltePreprocess({
 								compilerOptions: {
 									module: "es2015"
 								}
